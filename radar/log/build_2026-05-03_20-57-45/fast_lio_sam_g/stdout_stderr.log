@@ -1,0 +1,1420 @@
+[0mCurrent CPU archtecture: x86_64[0m
+[0mProcesser number:  32[0m
+[0mcore for MP: 3[0m
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0m** WARNING ** io features related to pcap will be disabled[0m
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_MODELER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[0mEigen:/usr/include/eigen3[0m
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- ROS2 detected
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found livox_ros_driver2: 1.0.0 (/home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jacky/workspace/build/fast_lio_sam_g
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_copy_fast_lio_sam_g
+running egg_info
+creating fast_lio_sam_g.egg-info
+writing fast_lio_sam_g.egg-info/PKG-INFO
+writing dependency_links to fast_lio_sam_g.egg-info/dependency_links.txt
+writing top-level names to fast_lio_sam_g.egg-info/top_level.txt
+writing manifest file 'fast_lio_sam_g.egg-info/SOURCES.txt'
+reading manifest file 'fast_lio_sam_g.egg-info/SOURCES.txt'
+writing manifest file 'fast_lio_sam_g.egg-info/SOURCES.txt'
+[  7%] Built target ament_cmake_python_build_fast_lio_sam_g_egg
+[  7%] Built target fast_lio_sam_g__rs
+[  7%] Built target fast_lio_sam_g__cpp
+[  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [32mBuilding C object CMakeFiles/fast_lio_sam_g__rosidl_generator_c.dir/rosidl_generator_c/fast_lio_sam_g/msg/detail/pose6_d__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libfast_lio_sam_g__rosidl_generator_c.so[0m
+[ 19%] Built target fast_lio_sam_g__rosidl_generator_c
+[ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio_sam_g/msg/detail/pose6_d__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio_sam_g/msg/pose6_d__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio_sam_g/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio_sam_g/msg/pose6_d__type_support.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio_sam_g/msg/detail/pose6_d__type_support.c.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio_sam_g/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library libfast_lio_sam_g__rosidl_typesupport_c.so[0m
+[ 46%] [32m[1mLinking CXX shared library libfast_lio_sam_g__rosidl_typesupport_cpp.so[0m
+[ 46%] Built target fast_lio_sam_g__rosidl_typesupport_c
+[ 46%] Built target fast_lio_sam_g__rosidl_typesupport_cpp
+[ 51%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/mapOptimization.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/initialPoseReg.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[ 63%] [32m[1mLinking C shared library libfast_lio_sam_g__rosidl_typesupport_introspection_c.so[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/cloud_to_occupancy.dir/src/cloud_to_Occupancy.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/utility.cpp.o[0m
+[ 65%] Built target fast_lio_sam_g__rosidl_typesupport_introspection_c
+[ 68%] [32m[1mLinking CXX shared library libfast_lio_sam_g__rosidl_typesupport_introspection_cpp.so[0m
+[ 70%] [32m[1mLinking CXX shared library libfast_lio_sam_g__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] Built target fast_lio_sam_g__rosidl_typesupport_introspection_cpp
+[ 70%] Built target fast_lio_sam_g__rosidl_typesupport_fastrtps_cpp
+[ 73%] [32m[1mLinking CXX shared library libfast_lio_sam_g__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target fast_lio_sam_g__rosidl_typesupport_fastrtps_c
+[ 73%] Built target fast_lio_sam_g
+[ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 75%] Built target fast_lio_sam_g__py
+[ 78%] [32mBuilding C object CMakeFiles/fast_lio_sam_g__rosidl_generator_py.dir/rosidl_generator_py/fast_lio_sam_g/msg/_pose6_d_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio_sam_g/libfast_lio_sam_g__rosidl_generator_py.so[0m
+[ 80%] Built target fast_lio_sam_g__rosidl_generator_py
+[ 82%] [32mBuilding C object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/fast_lio_sam_g__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] Built target fast_lio_sam_g__rosidl_typesupport_c__pyext
+[ 95%] Built target fast_lio_sam_g__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target fast_lio_sam_g__rosidl_typesupport_introspection_c__pyext
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::[01;35m[KConstPtr[m[K;
+      |                                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::ConstPtr[01;35m[K;[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K;
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::[01;35m[KConstPtr[m[K;
+      |                                                                                             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::[01;35m[KConstPtr[m[K;
+      |                                               [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::[01;35m[KPtr[m[K;
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::[01;35m[KConstPtr[m[K;
+      |                                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr[01;35m[K;[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::[01;35m[KConstPtr[m[K;
+      |                                                        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/cloud_to_Occupancy.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::[01;35m[KConstPtr[m[K;
+      |                                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::ConstPtr[01;35m[K;[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K;
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::[01;35m[KConstPtr[m[K;
+      |                                                                                             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::[01;35m[KConstPtr[m[K;
+      |                                               [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::[01;35m[KPtr[m[K;
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::[01;35m[KConstPtr[m[K;
+      |                                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr[01;35m[K;[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::[01;35m[KConstPtr[m[K;
+      |                                                        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:15[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:15[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/utility.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::[01;35m[KConstPtr[m[K;
+      |                                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::ConstPtr[01;35m[K;[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K;
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::[01;35m[KConstPtr[m[K;
+      |                                                                                             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::[01;35m[KConstPtr[m[K;
+      |                                               [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::[01;35m[KPtr[m[K;
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::[01;35m[KConstPtr[m[K;
+      |                                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr[01;35m[K;[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::[01;35m[KConstPtr[m[K;
+      |                                                        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:4[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:5[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.h:4[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/preprocess.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::[01;35m[KConstPtr[m[K;
+      |                                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::ConstPtr[01;35m[K;[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K;
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::[01;35m[KConstPtr[m[K;
+      |                                                                                             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::[01;35m[KConstPtr[m[K;
+      |                                               [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::[01;35m[KPtr[m[K;
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::[01;35m[KConstPtr[m[K;
+      |                                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr[01;35m[K;[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::[01;35m[KConstPtr[m[K;
+      |                                                        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:15[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:15[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/initialPoseReg.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::[01;35m[KConstPtr[m[K;
+      |                                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::ConstPtr[01;35m[K;[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K;
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::[01;35m[KConstPtr[m[K;
+      |                                                                                             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::[01;35m[KConstPtr[m[K;
+      |                                               [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::[01;35m[KPtr[m[K;
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::[01;35m[KConstPtr[m[K;
+      |                                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr[01;35m[K;[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::[01;35m[KConstPtr[m[K;
+      |                                                        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:70[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:70[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/common_lib.h:8[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:11[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::[01;35m[KConstPtr[m[K;
+      |                                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:115:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 | using LaserScanMsgConstPtr = sensor_msgs::msg::LaserScan::ConstPtr[01;35m[K;[m[K
+      |                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:71[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:204:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::[01;35m[KConstPtr[m[K;
+      |                                                                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:117:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:72[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::[01;35m[KConstPtr[m[K;
+      |                                                                                             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:118:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  118 | using PoseWithCovarianceStampedMsgConstPtr = geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr[01;35m[K;[m[K
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:85[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  116 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::[01;35m[KConstPtr[m[K;
+      |                                               [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:119:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  183 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::[01;35m[KPtr[m[K;
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:120:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  120 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:79[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::[01;35m[KConstPtr[m[K;
+      |                                                                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:121:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Klivox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  121 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr[01;35m[K;[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:86[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:165:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  165 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::[01;35m[KConstPtr[m[K;
+      |                                                        [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:15[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:16[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/ros_utils.h:123:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  123 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/include/utility.h:15[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/mapOptimization.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  195 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/IMU_Processing.hpp:19[m[K,
+                 from [01m[K/home/jacky/workspace/src/FAST-SLAM-G/src/laserMapping.cpp:14[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 97%] [32m[1mLinking CXX executable cloud_to_occupancy[0m
+[ 97%] Built target cloud_to_occupancy
+[100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[100%] Built target fastlio_mapping
+-- Install configuration: "Release"
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/rosidl_interfaces/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/pose6_d.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__functions.c
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__struct.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__functions.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/library_path.sh
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/library_path.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_generator_c.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/pose6_d.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__traits.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__builder.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__struct.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/dds_fastrtps
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.c
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.cpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/pythonpath.sh
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/pythonpath.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/libfast_lio_sam_g__rosidl_generator_py.so
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/__init__.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/_pose6_d_s.c
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/__init__.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/_pose6_d.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g'...
+Compiling '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/__init__.py'...
+Listing '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg'...
+Compiling '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/__init__.py'...
+Compiling '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/_pose6_d.py'...
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_generator_py.so
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_generator_py.so" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/rust_packages/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/msg.rs
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/lib.rs
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/msg/rmw.rs
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/build.rs
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/Cargo.toml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/msg/Pose6D.idl
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/msg/Pose6D.msg
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/sam
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/sam/sam_debug.launch.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/sam/sam_mid360.launch.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/__pycache__
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/__pycache__/nav2_mid360.launch.cpython-310.pyc
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/__pycache__/track_return_mid360.launch.cpython-310.pyc
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/nav2_mid360.launch.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/track_return_mid360.launch.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/mapping
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/mapping/mapping_mid360.launch.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/gridmap
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/gridmap/gridmap_mid360.launch.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam/l2.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam/mid360.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam/airy.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/nav2
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/nav2/mid360.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/horizon.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/marsim.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/l2.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/kaist_urban.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/velodyne.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/mid360.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/hap.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/ouster64.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/avia.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/airy.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/gridmap
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/gridmap/mid360.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/map_edits.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/debug_mid360.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map/edited_map.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map/edited_map.pgm
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map/map_edits.yaml
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/track_return.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_record.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_publish.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_task_record.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/__pycache__
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/__pycache__/track_return.cpython-310.pyc
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_task_dispatcher.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_markers.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_task_run.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_record.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_publish.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_markers.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_task_record.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_task_run.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_task_dispatcher.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/track_return.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/occupancy_map_editor.py
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/loam_ros2.rviz
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/sam_ros2.rviz
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/grid_ros2.rviz
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/nav2_ros2.rviz
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/fastlio_mapping
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/fastlio_mapping" to ""
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/cloud_to_occupancy
+-- Set runtime path of "/home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/cloud_to_occupancy" to ""
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/Exp_mat.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/esekfom
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/esekfom/util.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/esekfom/esekfom.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src/vectview.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src/mtkmath.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src/SubManifold.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/build_manifold.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/SOn.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/vect.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/S2.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/startIdx.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/so3_math.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/map_optimization.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree/ikd_Tree.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree/ikd_Tree.cpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree/ikdtree_public.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/posebuffer.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/use-ikfom.hpp
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/matplotlibcpp.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/utility.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/ros_utils.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/common_utils.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/queue.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/include/common_lib.h
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/package_run_dependencies/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/parent_prefix_path/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/ament_prefix_path.sh
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/ament_prefix_path.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/path.sh
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/path.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.bash
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.sh
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.zsh
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/package.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/packages/fast_lio_sam_g
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_cExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_cExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_cppExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_pyExport.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_pyExport-release.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_gConfig.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_gConfig-version.cmake
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/package.xml

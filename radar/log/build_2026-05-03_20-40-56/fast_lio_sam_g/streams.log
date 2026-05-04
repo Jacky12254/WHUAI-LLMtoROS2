@@ -1,0 +1,144 @@
+[0.005s] Invoking command in '/home/jacky/workspace/build/fast_lio_sam_g': AMENT_PREFIX_PATH=/home/jacky/workspace/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacky/workspace/install/livox_ros_driver2:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/home/jacky/rm65_ws/install/task_coordinator:/opt/ros/humble LD_LIBRARY_PATH=/home/jacky/workspace/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jacky/workspace/src/FAST-SLAM-G -DCMAKE_INSTALL_PREFIX=/home/jacky/workspace/install/fast_lio_sam_g
+[0.030s] -- The C compiler identification is GNU 12.3.0
+[0.052s] -- The CXX compiler identification is GNU 11.4.0
+[0.055s] -- Detecting C compiler ABI info
+[0.088s] -- Detecting C compiler ABI info - done
+[0.091s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.091s] -- Detecting C compile features
+[0.091s] -- Detecting C compile features - done
+[0.093s] -- Detecting CXX compiler ABI info
+[0.126s] -- Detecting CXX compiler ABI info - done
+[0.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.129s] -- Detecting CXX compile features
+[0.129s] -- Detecting CXX compile features - done
+[0.129s] [0mCurrent CPU archtecture: x86_64[0m
+[0.133s] [0mProcesser number:  32[0m
+[0.133s] [0mcore for MP: 3[0m
+[0.276s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.286s] -- Checking for module 'eigen3'
+[0.292s] --   Found eigen3, version 3.4.0
+[0.307s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.307s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.318s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.325s] -- Checking for module 'flann'
+[0.331s] --   Found flann, version 1.9.1
+[0.350s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.350s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.365s] -- Looking for pthread.h
+[0.396s] -- Looking for pthread.h - found
+[0.396s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.430s] -- Found Threads: TRUE  
+[0.431s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.434s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.492s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.492s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.493s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.498s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.505s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.509s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.559s] -- Found X11: /usr/include   
+[0.559s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.593s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.593s] -- Looking for gethostbyname
+[0.623s] -- Looking for gethostbyname - found
+[0.623s] -- Looking for connect
+[0.652s] -- Looking for connect - found
+[0.652s] -- Looking for remove
+[0.681s] -- Looking for remove - found
+[0.682s] -- Looking for shmat
+[0.711s] -- Looking for shmat - found
+[0.711s] -- Looking for IceConnectionNumber in ICE
+[0.741s] -- Looking for IceConnectionNumber in ICE - found
+[0.781s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[0.781s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[0.782s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[0.783s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[0.789s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.791s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[0.793s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[0.795s] -- Found utf8cpp: /usr/include/utf8cpp  
+[0.834s] -- Checking for module 'libusb-1.0'
+[0.842s] --   Found libusb-1.0, version 1.0.25
+[0.857s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.858s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[0.858s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.884s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[0.884s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.884s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.951s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.954s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.957s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.025s] -- Found Qhull version 8.0.2
+[1.097s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.167s] -- looking for PCL_COMMON
+[1.167s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.167s] -- looking for PCL_KDTREE
+[1.167s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.167s] -- looking for PCL_OCTREE
+[1.167s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.167s] -- looking for PCL_SEARCH
+[1.168s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.168s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.168s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.168s] -- looking for PCL_FILTERS
+[1.168s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.168s] -- looking for PCL_2D
+[1.168s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.168s] -- looking for PCL_GEOMETRY
+[1.169s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.169s] -- looking for PCL_IO
+[1.169s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.169s] -- looking for PCL_FEATURES
+[1.169s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.169s] -- looking for PCL_ML
+[1.170s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.170s] -- looking for PCL_SEGMENTATION
+[1.170s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.170s] -- looking for PCL_VISUALIZATION
+[1.170s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.170s] -- looking for PCL_SURFACE
+[1.171s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.171s] -- looking for PCL_REGISTRATION
+[1.171s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.171s] -- looking for PCL_KEYPOINTS
+[1.171s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.171s] -- looking for PCL_TRACKING
+[1.172s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.172s] -- looking for PCL_RECOGNITION
+[1.172s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.172s] -- looking for PCL_STEREO
+[1.172s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.172s] -- looking for PCL_APPS
+[1.173s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.173s] -- looking for PCL_IN_HAND_SCANNER
+[1.173s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.173s] -- looking for PCL_MODELER
+[1.173s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.173s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.173s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.173s] -- looking for PCL_OUTOFCORE
+[1.173s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.173s] -- looking for PCL_PEOPLE
+[1.174s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.174s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.8") 
+[1.179s] [31mCMake Error at CMakeLists.txt:43 (find_package):
+[1.179s]   By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has
+[1.179s]   asked CMake to find a package configuration file provided by "GTSAM", but
+[1.179s]   CMake did not find one.
+[1.179s] 
+[1.179s]   Could not find a package configuration file provided by "GTSAM" with any of
+[1.179s]   the following names:
+[1.179s] 
+[1.179s]     GTSAMConfig.cmake
+[1.179s]     gtsam-config.cmake
+[1.179s] 
+[1.179s]   Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set
+[1.179s]   "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"
+[1.179s]   provides a separate development package or SDK, be sure it has been
+[1.179s]   installed.
+[1.179s] 
+[1.179s] [0m
+[1.179s] -- Configuring incomplete, errors occurred!
+[1.179s] See also "/home/jacky/workspace/build/fast_lio_sam_g/CMakeFiles/CMakeOutput.log".
+[1.185s] Invoked command in '/home/jacky/workspace/build/fast_lio_sam_g' returned '1': AMENT_PREFIX_PATH=/home/jacky/workspace/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacky/workspace/install/livox_ros_driver2:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/home/jacky/rm65_ws/install/task_coordinator:/opt/ros/humble LD_LIBRARY_PATH=/home/jacky/workspace/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jacky/workspace/src/FAST-SLAM-G -DCMAKE_INSTALL_PREFIX=/home/jacky/workspace/install/fast_lio_sam_g

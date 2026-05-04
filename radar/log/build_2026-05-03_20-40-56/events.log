@@ -1,0 +1,607 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000185] (fast_lio_sam_g) JobQueued: {'identifier': 'fast_lio_sam_g', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/jacky/workspace/install/livox_ros_driver2')])}
+[0.000198] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.004659] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.004950] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/jacky/workspace/src/livox_ros_driver2', '-DCMAKE_INSTALL_PREFIX=/home/jacky/workspace/install/livox_ros_driver2'], 'cwd': '/home/jacky/workspace/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacky/rm65_ws/install/rm_ros_interfaces/lib:/usr/local/cuda-12.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jacky/workspace/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/jacky/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/jacky/rm65_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jacky/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/jacky/.npm-global/bin:/opt/ros/humble/bin:/home/jacky/.cargo/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1902,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4b016b_06c6_4cfc_b526_8cb48d18ef01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jacky/rm65_ws/install/task_coordinator:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jacky/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/workspace/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacky/rm65_ws/install/task_coordinator/lib/python3.10/site-packages:/home/jacky/rm65_ws/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/home/jacky/rm65_ws/install/task_coordinator:/opt/ros/humble')]), 'shell': False}
+[0.037585] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.060543] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.063530] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.095143] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.098145] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.098269] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.098440] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.099387] (-) TimerEvent: {}
+[0.099669] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.133322] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.136427] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.136572] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.136771] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.137058] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.6\n'}
+[0.138266] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.199492] (-) TimerEvent: {}
+[0.213323] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.295921] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299519] (-) TimerEvent: {}
+[0.301981] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.334360] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.391957] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.393879] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399746] (-) TimerEvent: {}
+[0.451134] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.464713] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.483117] (livox_ros_driver2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.489206] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.499785] (-) TimerEvent: {}
+[0.522796] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.522874] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.555004] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.555552] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.599902] (-) TimerEvent: {}
+[0.645730] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.654406] (livox_ros_driver2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.673286] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.673337] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.695572] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.700001] (-) TimerEvent: {}
+[0.704257] (livox_ros_driver2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.728127] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.728208] (livox_ros_driver2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.800066] (-) TimerEvent: {}
+[0.900189] (-) TimerEvent: {}
+[1.000345] (-) TimerEvent: {}
+[1.100570] (-) TimerEvent: {}
+[1.195456] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.200669] (-) TimerEvent: {}
+[1.202580] (livox_ros_driver2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.221290] (livox_ros_driver2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.221886] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.249284] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.300759] (-) TimerEvent: {}
+[1.320708] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.323527] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.327141] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.398216] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.400857] (-) TimerEvent: {}
+[1.469857] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.500959] (-) TimerEvent: {}
+[1.536986] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.541271] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.541918] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.542234] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.542568] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.543143] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.543292] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[1.543389] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[1.543702] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.544055] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.544395] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.544737] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.545122] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.545475] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.545829] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.546194] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.546545] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.546883] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.547254] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.547596] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.547882] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[1.547999] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[1.548225] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[1.548561] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.548922] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.571310] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.571824] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[1.573169] (livox_ros_driver2) StdoutLine: {'line': b"--   No package 'apr-1' found\n"}
+[1.601064] (-) TimerEvent: {}
+[1.674411] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.701161] (-) TimerEvent: {}
+[1.778477] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.801283] (-) TimerEvent: {}
+[1.901531] (-) TimerEvent: {}
+[1.911416] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.922379] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.924773] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.939029] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.939105] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.939127] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.939145] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.948211] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.001626] (-) TimerEvent: {}
+[2.021780] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.043056] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.045222] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.045555] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jacky/workspace/src/livox_ros_driver2/3rdparty;/home/jacky/workspace/src/livox_ros_driver2/src\n'}
+[2.045792] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.047486] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.047634] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.048045] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.048769] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.049307] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.051183] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.051255] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.051694] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.052904] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.094214] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.101574] (livox_ros_driver2) StdoutLine: {'line': b'-- Build files have been written to: /home/jacky/workspace/build/livox_ros_driver2\n'}
+[2.101710] (-) TimerEvent: {}
+[2.111962] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[2.112358] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[2.112868] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacky/workspace/build/livox_ros_driver2', '--', '-j32', '-l32'], 'cwd': '/home/jacky/workspace/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacky/rm65_ws/install/rm_ros_interfaces/lib:/usr/local/cuda-12.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jacky/workspace/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/jacky/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/jacky/rm65_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jacky/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/jacky/.npm-global/bin:/opt/ros/humble/bin:/home/jacky/.cargo/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1902,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4b016b_06c6_4cfc_b526_8cb48d18ef01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jacky/rm65_ws/install/task_coordinator:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jacky/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/workspace/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacky/rm65_ws/install/task_coordinator/lib/python3.10/site-packages:/home/jacky/rm65_ws/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/home/jacky/rm65_ws/install/task_coordinator:/opt/ros/humble')]), 'shell': False}
+[2.135908] (livox_ros_driver2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.137255] (livox_ros_driver2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.138296] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.140090] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o\x1b[0m\n'}
+[2.142548] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_livox_ros_driver2\n'}
+[2.201851] (-) TimerEvent: {}
+[2.241182] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[2.241602] (livox_ros_driver2) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[2.241730] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[2.241815] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[2.241907] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[2.241973] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[2.243245] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[2.243549] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[2.259034] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[2.301969] (-) TimerEvent: {}
+[2.306893] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target livox_interfaces2__rs\n'}
+[2.314465] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target livox_interfaces2__cpp\n'}
+[2.318958] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.319111] (livox_ros_driver2) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.319256] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.320893] (livox_ros_driver2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\x1b[0m\n'}
+[2.321031] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\x1b[0m\n'}
+[2.348073] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so\x1b[0m\n'}
+[2.363918] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[2.367935] (livox_ros_driver2) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.368003] (livox_ros_driver2) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.369567] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.402049] (-) TimerEvent: {}
+[2.481162] (livox_ros_driver2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[2.481522] (livox_ros_driver2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[2.495023] (livox_ros_driver2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[2.495167] (livox_ros_driver2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\x1b[0m\n'}
+[2.495217] (livox_ros_driver2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\x1b[0m\n'}
+[2.495389] (livox_ros_driver2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[2.502113] (-) TimerEvent: {}
+[2.539397] (livox_ros_driver2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[2.539584] (livox_ros_driver2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[2.548046] (livox_ros_driver2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\x1b[0m\n'}
+[2.548258] (livox_ros_driver2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\x1b[0m\n'}
+[2.549735] (livox_ros_driver2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\x1b[0m\n'}
+[2.549828] (livox_ros_driver2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\x1b[0m\n'}
+[2.553482] (livox_ros_driver2) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.573177] (livox_ros_driver2) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.573344] (livox_ros_driver2) StdoutLine: {'line': b'[ 46%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[2.586228] (livox_ros_driver2) StdoutLine: {'line': b'[ 46%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[2.589147] (livox_ros_driver2) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.602182] (-) TimerEvent: {}
+[2.607395] (livox_ros_driver2) StdoutLine: {'line': b'[ 48%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[2.617365] (livox_ros_driver2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o\x1b[0m\n'}
+[2.617611] (livox_ros_driver2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o\x1b[0m\n'}
+[2.617684] (livox_ros_driver2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o\x1b[0m\n'}
+[2.617721] (livox_ros_driver2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o\x1b[0m\n'}
+[2.618590] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o\x1b[0m\n'}
+[2.618673] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o\x1b[0m\n'}
+[2.618713] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o\x1b[0m\n'}
+[2.618748] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o\x1b[0m\n'}
+[2.618808] (livox_ros_driver2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o\x1b[0m\n'}
+[2.618864] (livox_ros_driver2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o\x1b[0m\n'}
+[2.618928] (livox_ros_driver2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o\x1b[0m\n'}
+[2.618977] (livox_ros_driver2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o\x1b[0m\n'}
+[2.619126] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o\x1b[0m\n'}
+[2.619200] (livox_ros_driver2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o\x1b[0m\n'}
+[2.619562] (livox_ros_driver2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o\x1b[0m\n'}
+[2.688090] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.702310] (-) TimerEvent: {}
+[2.704784] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.710768] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.732572] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[2.746721] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[2.753720] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[2.766491] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2\n'}
+[2.777225] (livox_ros_driver2) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.802422] (-) TimerEvent: {}
+[2.902796] (-) TimerEvent: {}
+[3.003101] (-) TimerEvent: {}
+[3.076047] (livox_ros_driver2) StdoutLine: {'line': b'[ 81%] Built target livox_interfaces2__py\n'}
+[3.083866] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\x1b[0m\n'}
+[3.086839] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\x1b[0m\n'}
+[3.103195] (-) TimerEvent: {}
+[3.145113] (livox_ros_driver2) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\x1b[0m\n'}
+[3.166687] (livox_ros_driver2) StdoutLine: {'line': b'[ 86%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[3.174359] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.174416] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.174640] (livox_ros_driver2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.203243] (-) TimerEvent: {}
+[3.220730] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.220858] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.220941] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.237162] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[3.237322] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.237407] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[3.303351] (-) TimerEvent: {}
+[3.403684] (-) TimerEvent: {}
+[3.504085] (-) TimerEvent: {}
+[3.604471] (-) TimerEvent: {}
+[3.704865] (-) TimerEvent: {}
+[3.729521] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable livox_ros_driver2_node\x1b[0m\n'}
+[3.794659] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Built target livox_ros_driver2_node\n'}
+[3.804931] (-) TimerEvent: {}
+[3.905183] (-) TimerEvent: {}
+[4.005589] (-) TimerEvent: {}
+[4.105965] (-) TimerEvent: {}
+[4.206323] (-) TimerEvent: {}
+[4.306696] (-) TimerEvent: {}
+[4.407040] (-) TimerEvent: {}
+[4.507412] (-) TimerEvent: {}
+[4.607827] (-) TimerEvent: {}
+[4.708184] (-) TimerEvent: {}
+[4.808485] (-) TimerEvent: {}
+[4.908847] (-) TimerEvent: {}
+[5.009145] (-) TimerEvent: {}
+[5.109433] (-) TimerEvent: {}
+[5.209748] (-) TimerEvent: {}
+[5.310053] (-) TimerEvent: {}
+[5.410336] (-) TimerEvent: {}
+[5.510625] (-) TimerEvent: {}
+[5.610907] (-) TimerEvent: {}
+[5.711189] (-) TimerEvent: {}
+[5.811465] (-) TimerEvent: {}
+[5.911759] (-) TimerEvent: {}
+[6.012040] (-) TimerEvent: {}
+[6.112351] (-) TimerEvent: {}
+[6.203020] (livox_ros_driver2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2.so\x1b[0m\n'}
+[6.212439] (-) TimerEvent: {}
+[6.312708] (-) TimerEvent: {}
+[6.412995] (-) TimerEvent: {}
+[6.513310] (-) TimerEvent: {}
+[6.541752] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2\n'}
+[6.549372] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[6.550157] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[6.553679] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jacky/workspace/build/livox_ros_driver2'], 'cwd': '/home/jacky/workspace/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacky/rm65_ws/install/rm_ros_interfaces/lib:/usr/local/cuda-12.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jacky/workspace/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/jacky/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/jacky/rm65_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jacky/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/jacky/.npm-global/bin:/opt/ros/humble/bin:/home/jacky/.cargo/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1902,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4b016b_06c6_4cfc_b526_8cb48d18ef01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jacky/rm65_ws/install/task_coordinator:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jacky/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/workspace/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacky/rm65_ws/install/task_coordinator/lib/python3.10/site-packages:/home/jacky/rm65_ws/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/home/jacky/rm65_ws/install/task_coordinator:/opt/ros/humble')]), 'shell': False}
+[6.557172] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.557286] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[6.557342] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[6.557389] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[6.557410] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[6.557455] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.557479] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[6.557525] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[6.557547] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[6.557564] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[6.557597] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[6.557633] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[6.557677] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[6.557699] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c\n'}
+[6.557733] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c\n'}
+[6.557768] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[6.557802] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[6.557837] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[6.557880] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[6.557973] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""\n'}
+[6.558008] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[6.558053] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[6.558072] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.558092] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[6.558111] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[6.558152] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[6.558170] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[6.558214] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.558253] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[6.558300] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[6.558322] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.558342] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[6.558381] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[6.558398] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c\n'}
+[6.558417] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[6.558435] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c\n'}
+[6.558471] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[6.558509] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.558559] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[6.558601] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""\n'}
+[6.558622] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[6.558643] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[6.558678] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.558730] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[6.558751] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[6.558789] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[6.558810] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[6.558829] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[6.558848] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[6.558867] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[6.558904] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[6.558955] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[6.558977] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[6.558996] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[6.559015] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[6.559035] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[6.559053] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.559072] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[6.559107] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps\n'}
+[6.559152] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.559173] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.559192] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.559229] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.559279] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[6.559302] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[6.559321] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[6.559340] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.559359] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp\n'}
+[6.559377] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.559412] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp\n'}
+[6.559450] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[6.559494] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.559515] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[6.559556] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""\n'}
+[6.559598] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[6.559615] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[6.559632] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info\n'}
+[6.559667] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.559708] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.559752] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.559777] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.559795] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2\n'}
+[6.559837] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[6.559855] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.559874] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.559910] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[6.559949] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.559998] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.560017] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[6.560036] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg\n'}
+[6.560055] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[6.560097] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[6.560117] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[6.560136] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[6.560177] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[6.560194] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.575538] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[6.575643] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...\n"}
+[6.575667] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[6.575687] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...\n"}
+[6.575712] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...\n"}
+[6.575731] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...\n"}
+[6.577580] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.577690] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.577749] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.577835] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.577888] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.577967] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.578003] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[6.578068] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""\n'}
+[6.578151] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2\n'}
+[6.578191] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust\n'}
+[6.578225] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src\n'}
+[6.578255] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs\n'}
+[6.578289] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs\n'}
+[6.578325] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg\n'}
+[6.578360] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs\n'}
+[6.578392] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs\n'}
+[6.578408] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml\n'}
+[6.578437] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[6.578471] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[6.578502] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[6.578588] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[6.578632] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[6.578728] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""\n'}
+[6.578763] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_lidar_sdk_shared.so\n'}
+[6.580559] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[6.581782] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/jacky/workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to "$ORIGIN"\n'}
+[6.581808] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config\n'}
+[6.581834] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[6.581857] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[6.581881] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[6.581907] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json\n'}
+[6.581933] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz\n'}
+[6.581958] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[6.581989] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2\n'}
+[6.582012] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py\n'}
+[6.582037] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py\n'}
+[6.582063] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py\n'}
+[6.582088] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py\n'}
+[6.582113] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py\n'}
+[6.582138] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py\n'}
+[6.582163] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py\n'}
+[6.582211] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[6.582254] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[6.582327] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[6.582346] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[6.582385] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[6.582425] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[6.582470] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[6.582492] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[6.582536] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[6.582575] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[6.582591] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[6.582638] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[6.582697] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[6.582716] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[6.582771] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.582789] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.582845] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.582887] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.582908] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.582963] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[6.583001] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.583043] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[6.583062] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.583122] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.583141] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.583160] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.583211] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[6.583232] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.583277] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake\n'}
+[6.583337] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.583377] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[6.583397] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.583416] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.583480] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.583498] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.583517] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.583562] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.583584] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[6.583606] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[6.583644] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jacky/workspace/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[6.584681] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[6.592602] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[6.592838] (fast_lio_sam_g) JobStarted: {'identifier': 'fast_lio_sam_g'}
+[6.596544] (fast_lio_sam_g) JobProgress: {'identifier': 'fast_lio_sam_g', 'progress': 'cmake'}
+[6.596918] (fast_lio_sam_g) Command: {'cmd': ['/usr/bin/cmake', '/home/jacky/workspace/src/FAST-SLAM-G', '-DCMAKE_INSTALL_PREFIX=/home/jacky/workspace/install/fast_lio_sam_g'], 'cwd': '/home/jacky/workspace/build/fast_lio_sam_g', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('HTTPS_PROXY', 'http://127.0.0.1:10808/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jacky'), ('all_proxy', 'socks://127.0.0.1:10808/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacky/workspace/install/livox_ros_driver2/lib:/home/jacky/rm65_ws/install/rm_ros_interfaces/lib:/usr/local/cuda-12.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacky'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jacky/workspace/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/jacky/miniconda3'), ('https_proxy', 'http://127.0.0.1:10808/'), ('COLCON_PREFIX_PATH', '/home/jacky/rm65_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jacky'), ('ALL_PROXY', 'socks://127.0.0.1:10808/'), ('http_proxy', 'http://127.0.0.1:10808/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jacky'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jacky/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/jacky/.npm-global/bin:/opt/ros/humble/bin:/home/jacky/.cargo/bin:/home/jacky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jacky-CANGLONG-Series:@/tmp/.ICE-unix/1902,unix/jacky-CANGLONG-Series:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:10808/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4b016b_06c6_4cfc_b526_8cb48d18ef01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jacky/workspace/install/livox_ros_driver2:/home/jacky/rm65_ws/install/task_coordinator:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jacky/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jacky/workspace/build/fast_lio_sam_g'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jacky/miniconda3/bin/conda'), ('FTP_PROXY', 'http://127.0.0.1:10808/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=094c837d876ca7c93c20132669f73cd2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacky/workspace/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jacky/rm65_ws/install/task_coordinator/lib/python3.10/site-packages:/home/jacky/rm65_ws/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:10808/'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jacky/workspace/install/livox_ros_driver2:/home/jacky/rm65_ws/install/rm_example:/home/jacky/rm65_ws/install/rm_driver:/home/jacky/rm65_ws/install/rm_control:/home/jacky/rm65_ws/install/get_arm_state:/home/jacky/rm65_ws/install/force_position_control:/home/jacky/rm65_ws/install/control_arm_move:/home/jacky/rm65_ws/install/rm_ros_interfaces:/home/jacky/rm65_ws/install/rm_install:/home/jacky/rm65_ws/install/rm_gen72_config:/home/jacky/rm65_ws/install/rm_gazebo:/home/jacky/rm65_ws/install/rm_eco65_config:/home/jacky/rm65_ws/install/rm_eco63_config:/home/jacky/rm65_ws/install/rm_doc:/home/jacky/rm65_ws/install/rm_75_config:/home/jacky/rm65_ws/install/rm_63_config:/home/jacky/rm65_ws/install/rm_description:/home/jacky/rm65_ws/install/rm_bringup:/home/jacky/rm65_ws/install/rm_65_config:/home/jacky/rm65_ws/install/task_coordinator:/opt/ros/humble')]), 'shell': False}
+[6.613393] (-) TimerEvent: {}
+[6.622555] (fast_lio_sam_g) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[6.644966] (fast_lio_sam_g) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.647986] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.680880] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.683992] (fast_lio_sam_g) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.684100] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.684290] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.685551] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.713474] (-) TimerEvent: {}
+[6.718535] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.721630] (fast_lio_sam_g) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.721768] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.721978] (fast_lio_sam_g) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.722263] (fast_lio_sam_g) StderrLine: {'line': b'\x1b[0mCurrent CPU archtecture: x86_64\x1b[0m\n'}
+[6.725779] (fast_lio_sam_g) StderrLine: {'line': b'\x1b[0mProcesser number:  32\x1b[0m\n'}
+[6.725820] (fast_lio_sam_g) StderrLine: {'line': b'\x1b[0mcore for MP: 3\x1b[0m\n'}
+[6.813533] (-) TimerEvent: {}
+[6.868242] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[6.879065] (fast_lio_sam_g) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[6.885238] (fast_lio_sam_g) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[6.899940] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[6.899989] (fast_lio_sam_g) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.910875] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[6.913587] (-) TimerEvent: {}
+[6.917474] (fast_lio_sam_g) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[6.923776] (fast_lio_sam_g) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[6.943163] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[6.943217] (fast_lio_sam_g) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[6.957472] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.988489] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.988562] (fast_lio_sam_g) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.013647] (-) TimerEvent: {}
+[7.022063] (fast_lio_sam_g) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.022592] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.023767] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[7.027272] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[7.084990] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[7.085199] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[7.086274] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[7.090546] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[7.097564] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[7.101874] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[7.113749] (-) TimerEvent: {}
+[7.151885] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[7.152084] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[7.185989] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[7.186185] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[7.213812] (-) TimerEvent: {}
+[7.215742] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[7.215821] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for connect\n'}
+[7.244750] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[7.244828] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for remove\n'}
+[7.274249] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[7.274345] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[7.304132] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[7.304202] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[7.313866] (-) TimerEvent: {}
+[7.334279] (fast_lio_sam_g) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[7.373417] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[7.374197] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[7.375136] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[7.375819] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[7.381907] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[7.384191] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[7.385715] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[7.387936] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[7.413934] (-) TimerEvent: {}
+[7.426923] (fast_lio_sam_g) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.434340] (fast_lio_sam_g) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[7.449944] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[7.450383] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[7.450408] (fast_lio_sam_g) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.476415] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[7.476460] (fast_lio_sam_g) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[7.476505] (fast_lio_sam_g) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[7.513989] (-) TimerEvent: {}
+[7.544308] (fast_lio_sam_g) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[7.547099] (fast_lio_sam_g) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.549874] (fast_lio_sam_g) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[7.614088] (-) TimerEvent: {}
+[7.617716] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[7.689953] (fast_lio_sam_g) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.714179] (-) TimerEvent: {}
+[7.759311] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[7.759587] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[7.759707] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[7.759929] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[7.759987] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[7.760231] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[7.760265] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[7.760535] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[7.760583] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[7.760837] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[7.760884] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[7.761123] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[7.761186] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[7.761254] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[7.761304] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[7.761371] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[7.761403] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[7.761674] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[7.761749] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[7.762027] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[7.762101] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[7.762359] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[7.762403] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[7.762671] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[7.762759] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[7.763030] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[7.763112] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[7.763376] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[7.763443] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[7.763707] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[7.763784] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[7.764050] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[7.764121] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[7.764372] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[7.764434] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[7.764715] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[7.764812] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[7.765076] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[7.765125] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[7.765386] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[7.765592] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[7.765670] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[7.765704] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[7.765778] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[7.765810] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[7.765894] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[7.765929] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[7.766198] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[7.766265] (fast_lio_sam_g) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[7.766537] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[7.766828] (fast_lio_sam_g) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.8") \n'}
+[7.771504] (fast_lio_sam_g) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:43 (find_package):\n'}
+[7.771758] (fast_lio_sam_g) StderrLine: {'line': b'  By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[7.771868] (fast_lio_sam_g) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "GTSAM", but\n'}
+[7.771889] (fast_lio_sam_g) StderrLine: {'line': b'  CMake did not find one.\n'}
+[7.771906] (fast_lio_sam_g) StderrLine: {'line': b'\n'}
+[7.771922] (fast_lio_sam_g) StderrLine: {'line': b'  Could not find a package configuration file provided by "GTSAM" with any of\n'}
+[7.771939] (fast_lio_sam_g) StderrLine: {'line': b'  the following names:\n'}
+[7.771955] (fast_lio_sam_g) StderrLine: {'line': b'\n'}
+[7.771970] (fast_lio_sam_g) StderrLine: {'line': b'    GTSAMConfig.cmake\n'}
+[7.771985] (fast_lio_sam_g) StderrLine: {'line': b'    gtsam-config.cmake\n'}
+[7.772003] (fast_lio_sam_g) StderrLine: {'line': b'\n'}
+[7.772017] (fast_lio_sam_g) StderrLine: {'line': b'  Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set\n'}
+[7.772032] (fast_lio_sam_g) StderrLine: {'line': b'  "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"\n'}
+[7.772046] (fast_lio_sam_g) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[7.772060] (fast_lio_sam_g) StderrLine: {'line': b'  installed.\n'}
+[7.772074] (fast_lio_sam_g) StderrLine: {'line': b'\n'}
+[7.772088] (fast_lio_sam_g) StderrLine: {'line': b'\x1b[0m\n'}
+[7.772102] (fast_lio_sam_g) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.772120] (fast_lio_sam_g) StdoutLine: {'line': b'See also "/home/jacky/workspace/build/fast_lio_sam_g/CMakeFiles/CMakeOutput.log".\n'}
+[7.777711] (fast_lio_sam_g) CommandEnded: {'returncode': 1}
+[7.787262] (fast_lio_sam_g) JobEnded: {'identifier': 'fast_lio_sam_g', 'rc': 1}
+[7.797831] (-) EventReactorShutdown: {}

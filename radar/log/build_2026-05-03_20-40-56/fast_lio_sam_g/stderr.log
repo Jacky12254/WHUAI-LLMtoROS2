@@ -1,0 +1,21 @@
+[0mCurrent CPU archtecture: x86_64[0m
+[0mProcesser number:  32[0m
+[0mcore for MP: 3[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:43 (find_package):
+  By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "GTSAM", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "GTSAM" with any of
+  the following names:
+
+    GTSAMConfig.cmake
+    gtsam-config.cmake
+
+  Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set
+  "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m

@@ -1,0 +1,3 @@
+#!/bin/bash
+cd llama.cpp
+./build/bin/llama-server -m ./models/Qwen3.5-9B-UD-Q4_K_XL.gguf --ctx-size 16384 --port 8080 --n-gpu-layers -1 --chat-template-kwargs '{"enable_thinking":false}'

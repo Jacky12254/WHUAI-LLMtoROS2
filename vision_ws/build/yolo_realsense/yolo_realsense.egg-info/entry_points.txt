@@ -1,0 +1,4 @@
+[console_scripts]
+detect4 = yolo_realsense.detect4:main
+detect_ros = yolo_realsense.detect_ros:main
+

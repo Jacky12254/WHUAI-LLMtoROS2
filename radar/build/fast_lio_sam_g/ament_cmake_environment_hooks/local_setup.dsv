@@ -1,0 +1,4 @@
+source;share/fast_lio_sam_g/environment/ament_prefix_path.sh
+source;share/fast_lio_sam_g/environment/library_path.sh
+source;share/fast_lio_sam_g/environment/path.sh
+source;share/fast_lio_sam_g/environment/pythonpath.sh

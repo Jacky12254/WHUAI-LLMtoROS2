@@ -1,0 +1,11 @@
+source;share/fast_lio_sam_g/hook/cmake_prefix_path.ps1
+source;share/fast_lio_sam_g/hook/cmake_prefix_path.dsv
+source;share/fast_lio_sam_g/hook/cmake_prefix_path.sh
+source;share/fast_lio_sam_g/hook/ld_library_path_lib.ps1
+source;share/fast_lio_sam_g/hook/ld_library_path_lib.dsv
+source;share/fast_lio_sam_g/hook/ld_library_path_lib.sh
+source;share/fast_lio_sam_g/local_setup.bash
+source;share/fast_lio_sam_g/local_setup.dsv
+source;share/fast_lio_sam_g/local_setup.ps1
+source;share/fast_lio_sam_g/local_setup.sh
+source;share/fast_lio_sam_g/local_setup.zsh

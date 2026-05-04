@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fast_lio_sam_g__rs",
+		"source" : "/home/jacky/workspace/build/fast_lio_sam_g/fast_lio_sam_g__rs"
+	}
+}

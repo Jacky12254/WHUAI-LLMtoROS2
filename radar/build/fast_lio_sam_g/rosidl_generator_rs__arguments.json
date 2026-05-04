@@ -1,0 +1,28 @@
+{
+  "package_name": "fast_lio_sam_g",
+  "output_dir": "/home/jacky/workspace/build/fast_lio_sam_g/rosidl_generator_rs/fast_lio_sam_g",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/jacky/workspace/build/fast_lio_sam_g/rosidl_adapter/fast_lio_sam_g:msg/Pose6D.idl"
+  ],
+  "ros_interface_files": [
+    "/home/jacky/workspace/build/fast_lio_sam_g/rosidl_adapter/fast_lio_sam_g/msg/Pose6D.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/action.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/action/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/msg/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/srv/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_idiomatic.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
+    "/home/jacky/workspace/build/fast_lio_sam_g/rosidl_adapter/fast_lio_sam_g/msg/Pose6D.idl",
+    "/home/jacky/workspace/build/fast_lio_sam_g/rosidl_adapter/fast_lio_sam_g/msg/Pose6D.idl"
+  ],
+  "package_version": "0.0.0"
+}

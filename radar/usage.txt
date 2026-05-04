@@ -1,0 +1,143 @@
+轨迹记录、回放、定点导航说明
+============================
+
+1. 启动
+-------
+
+```bash
+conda deactivate
+cd /home/li/workspace3
+source install/setup.bash
+ros2 launch fast_lio_sam_g nav2_mid360.launch.py map_source:=online
+```
+
+```bash
+cd /home/li/workspace3
+source install/setup.bash
+ros2 launch fast_lio_sam_g track_return_mid360.launch.py
+```
+
+
+2. 话题类型
+-----------
+
+- `/goto_point`：`geometry_msgs/msg/Point`
+- `/record_path`：`std_msgs/msg/Bool`
+- `/repeat_path`：`std_msgs/msg/Int8`
+- `/Status`：`std_msgs/msg/String`
+
+注意：
+
+- 上位机订阅 `/Status` 要用 `std_msgs.msg.String`
+- 不能写成 `str`
+
+
+3. 导航点命令
+-------------
+
+现在的配置里：
+
+- `Point.x` = 目标点 `x`
+- `Point.y` = 目标点 `y`
+- `Point.z` = 目标点 yaw
+
+yaw 单位是弧度，参考 `map` 坐标系。
+
+示例：
+
+```bash
+ros2 topic pub --once /goto_point geometry_msgs/msg/Point "{x: 0.5, y: 0.0, z: 0.0}"
+```
+
+说明：
+
+- `z = 0.0` 表示朝 `map` 的 `+x`
+- `z = 1.57` 表示朝 `map` 的 `+y`
+- `z = 3.14` 表示朝 `map` 的 `-x`
+- `z = -1.57` 表示朝 `map` 的 `-y`
+
+
+4. 其他命令
+-----------
+
+开始记录：
+
+```bash
+ros2 topic pub --once /record_path std_msgs/msg/Bool "{data: true}"
+```
+
+停止记录：
+
+```bash
+ros2 topic pub --once /record_path std_msgs/msg/Bool "{data: false}"
+```
+
+正向重走：
+
+```bash
+ros2 topic pub --once /repeat_path std_msgs/msg/Int8 "{data: 1}"
+```
+
+反向返回：
+
+```bash
+ros2 topic pub --once /repeat_path std_msgs/msg/Int8 "{data: -1}"
+```
+
+停止回放：
+
+```bash
+ros2 topic pub --once /repeat_path std_msgs/msg/Int8 "{data: 0}"
+```
+
+
+5. 当前流程
+-----------
+
+收到 `/goto_point` 后会：
+
+1. 开始导航到目标点
+2. 自动开始记录这一轮 path
+3. 到点后自动停止记录
+4. 自动保存这条 path
+
+之后可以：
+
+- 发 `/repeat_path = -1` 反向返回
+- 发 `/repeat_path = 1` 正向再走一遍
+- 再发 `/repeat_path = -1` 再返回一次
+
+如果第二轮重新收到新的 `/goto_point`：
+
+- 新 path 会直接覆盖上一轮 path
+
+
+6. 状态反馈
+-----------
+
+查看命令：
+
+```bash
+ros2 topic echo /Status
+```
+
+当前会发这些状态：
+
+- `goto_point_received`：收到新的导航点
+- `goto_point_update`：导航中收到新的导航点，准备替换
+- `goto_point_start`：开始导航
+- `goto_point`：导航进行中
+- `goto_point_reached`：导航到点
+- `goto_point_failed`：导航失败
+- `goto_point_canceled`：导航被取消
+- `record_start`：开始记录 path
+- `record_stop`：停止记录 path
+- `save`：当前 path 已保存
+- `record_discarded`：本轮记录作废
+- `record_rejected`：当前状态下不能开始记录
+- `repeat_start`：开始回放 path
+- `repeat_stop`：回放结束或停止
+- `repeat_failed`：回放失败
+- `repeat_invalid`：回放命令无效
+
+`avoid_obstacle` 这个状态目前没有单独事件源，现阶段不会稳定输出，不建议上位机先依赖它。

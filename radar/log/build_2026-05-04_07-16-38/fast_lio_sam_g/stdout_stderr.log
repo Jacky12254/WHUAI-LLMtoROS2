@@ -1,0 +1,248 @@
+[  2%] Built target fast_lio_sam_g__cpp
+[  4%] Built target fast_lio_sam_g__rs
+[ 12%] Built target fast_lio_sam_g__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_fast_lio_sam_g
+[ 34%] Built target fast_lio_sam_g__rosidl_typesupport_introspection_cpp
+[ 34%] Built target fast_lio_sam_g__rosidl_typesupport_cpp
+[ 34%] Built target fast_lio_sam_g__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target fast_lio_sam_g__rosidl_typesupport_c
+[ 48%] Built target fast_lio_sam_g__rosidl_typesupport_fastrtps_c
+[ 56%] Built target fast_lio_sam_g__rosidl_typesupport_introspection_c
+[ 56%] Built target fast_lio_sam_g
+[ 58%] Built target fast_lio_sam_g__py
+[ 63%] Built target cloud_to_occupancy
+[ 68%] Built target fast_lio_sam_g__rosidl_generator_py
+[ 75%] Built target fast_lio_sam_g__rosidl_typesupport_c__pyext
+[ 78%] Built target fast_lio_sam_g__rosidl_typesupport_fastrtps_c__pyext
+[ 82%] Built target fast_lio_sam_g__rosidl_typesupport_introspection_c__pyext
+[100%] Built target fastlio_mapping
+running egg_info
+writing fast_lio_sam_g.egg-info/PKG-INFO
+writing dependency_links to fast_lio_sam_g.egg-info/dependency_links.txt
+writing top-level names to fast_lio_sam_g.egg-info/top_level.txt
+reading manifest file 'fast_lio_sam_g.egg-info/SOURCES.txt'
+writing manifest file 'fast_lio_sam_g.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_fast_lio_sam_g_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/rosidl_interfaces/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/pose6_d.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__functions.c
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__struct.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__functions.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/library_path.sh
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/library_path.dsv
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_generator_c.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/pose6_d.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__traits.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__builder.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__struct.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/dds_fastrtps
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.c
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_c.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__type_support.cpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/fast_lio_sam_g/fast_lio_sam_g/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/pythonpath.sh
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/pythonpath.dsv
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/libfast_lio_sam_g__rosidl_generator_py.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/__init__.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/_pose6_d_s.c
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/__init__.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg/_pose6_d.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/_fast_lio_sam_g_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g'...
+Listing '/home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/msg'...
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/local/lib/python3.10/dist-packages/fast_lio_sam_g/fast_lio_sam_g_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/libfast_lio_sam_g__rosidl_generator_py.so
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/rust_packages/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/msg.rs
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/lib.rs
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/src/msg/rmw.rs
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/build.rs
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rust/Cargo.toml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/msg/Pose6D.idl
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/msg/Pose6D.msg
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/sam
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/sam/sam_debug.launch.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/sam/sam_mid360.launch.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/__pycache__
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/__pycache__/nav2_mid360.launch.cpython-310.pyc
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/__pycache__/track_return_mid360.launch.cpython-310.pyc
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/nav2_mid360.launch.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/nav2/track_return_mid360.launch.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/mapping
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/mapping/mapping_mid360.launch.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/gridmap
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/launch_ROS2/gridmap/gridmap_mid360.launch.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam/l2.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam/mid360.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/sam/airy.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/nav2
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/nav2/mid360.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/horizon.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/marsim.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/l2.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/kaist_urban.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/velodyne.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/mid360.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/hap.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/ouster64.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/avia.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/mapping/airy.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/gridmap
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/gridmap/mid360.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/map_edits.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/config/debug_mid360.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map/edited_map.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map/edited_map.pgm
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/map/map_edits.yaml
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/track_return.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_record.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_publish.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_task_record.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/__pycache__
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/__pycache__/track_return.cpython-310.pyc
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_task_dispatcher.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_markers.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/waypoints/waypoint_task_run.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_record.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_publish.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_markers.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_task_record.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_task_run.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/waypoint_task_dispatcher.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/track_return.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/occupancy_map_editor.py
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/loam_ros2.rviz
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/sam_ros2.rviz
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/grid_ros2.rviz
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/rviz_cfg/nav2_ros2.rviz
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/fastlio_mapping
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/lib/fast_lio_sam_g/cloud_to_occupancy
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/Exp_mat.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/esekfom
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/esekfom/util.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/esekfom/esekfom.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src/vectview.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src/mtkmath.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/src/SubManifold.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/build_manifold.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/SOn.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/vect.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/types/S2.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/IKFoM_toolkit/mtk/startIdx.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/so3_math.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/map_optimization.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree/ikd_Tree.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree/ikd_Tree.cpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/ikd-Tree/ikdtree_public.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/posebuffer.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/use-ikfom.hpp
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/matplotlibcpp.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/utility.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/ros_utils.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/common_utils.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/queue.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/include/common_lib.h
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/package_run_dependencies/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/parent_prefix_path/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/path.sh
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/environment/path.dsv
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.bash
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.sh
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.zsh
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/local_setup.dsv
+-- Installing: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/package.dsv
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/ament_index/resource_index/packages/fast_lio_sam_g
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_g__rosidl_typesupport_cppExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/export_fast_lio_sam_g__rosidl_generator_pyExport-release.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_gConfig.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/cmake/fast_lio_sam_gConfig-version.cmake
+-- Up-to-date: /home/jacky/workspace/install/fast_lio_sam_g/share/fast_lio_sam_g/package.xml

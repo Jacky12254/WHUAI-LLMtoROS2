@@ -1,0 +1,3 @@
+[console_scripts]
+llm_bridge = LLMLinkRos2.LLMlinkRos2V4:main
+

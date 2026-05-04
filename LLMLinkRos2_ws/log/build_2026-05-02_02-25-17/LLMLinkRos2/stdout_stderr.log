@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/LLMLinkRos2/LLMLinkRos2.egg-info/PKG-INFO
+writing dependency_links to ../../build/LLMLinkRos2/LLMLinkRos2.egg-info/dependency_links.txt
+writing entry points to ../../build/LLMLinkRos2/LLMLinkRos2.egg-info/entry_points.txt
+writing requirements to ../../build/LLMLinkRos2/LLMLinkRos2.egg-info/requires.txt
+writing top-level names to ../../build/LLMLinkRos2/LLMLinkRos2.egg-info/top_level.txt
+reading manifest file '../../build/LLMLinkRos2/LLMLinkRos2.egg-info/SOURCES.txt'
+writing manifest file '../../build/LLMLinkRos2/LLMLinkRos2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying LLMLinkRos2/LLMlinkRos2V6.py -> /home/jacky/LLMLinkRos2_ws/build/LLMLinkRos2/build/lib/LLMLinkRos2
+running install
+running install_lib
+copying /home/jacky/LLMLinkRos2_ws/build/LLMLinkRos2/build/lib/LLMLinkRos2/LLMlinkRos2V6.py -> /home/jacky/LLMLinkRos2_ws/install/LLMLinkRos2/lib/python3.10/site-packages/LLMLinkRos2
+byte-compiling /home/jacky/LLMLinkRos2_ws/install/LLMLinkRos2/lib/python3.10/site-packages/LLMLinkRos2/LLMlinkRos2V6.py to LLMlinkRos2V6.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jacky/LLMLinkRos2_ws/install/LLMLinkRos2/lib/python3.10/site-packages/LLMLinkRos2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/LLMLinkRos2/LLMLinkRos2.egg-info to /home/jacky/LLMLinkRos2_ws/install/LLMLinkRos2/lib/python3.10/site-packages/LLMLinkRos2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing llm_bridge script to /home/jacky/LLMLinkRos2_ws/install/LLMLinkRos2/lib/LLMLinkRos2
+writing list of installed files to '/home/jacky/LLMLinkRos2_ws/build/LLMLinkRos2/install.log'

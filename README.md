@@ -27,7 +27,7 @@ conda环境如environment.yaml所示；
     
 ROS2可以使用鱼香ROS安装；
 
-llama.cpp安装方式如下：
+llama.cpp编译安装
 
     
 
@@ -181,6 +181,12 @@ def receive_LLMorder():
 特别感谢其他贡献者，都是WHURobocup-Home的成员，他们在ROS2支持方面相关给力。
 
 衷心感谢Gemini,Qwen,deepseek,CodeX等一众大模型的无私奉献。
+
+## 免责声明
+
+项目由多人完成，可能会上传了其他库的源代码，在此表示歉意。
+
+本项目不得商用
 
 ## 联系方式
 

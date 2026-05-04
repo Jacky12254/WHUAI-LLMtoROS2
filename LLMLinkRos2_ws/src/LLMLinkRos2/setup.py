@@ -1,0 +1,35 @@
+from setuptools import find_packages, setup
+import os
+from glob import glob
+
+package_name = 'LLMLinkRos2'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+        # 如果你有 launch 文件，可以取消下面这行的注释
+        # (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
+    ],
+    install_requires=[
+        'setuptools',
+        'flask',      # 你的脚本依赖 flask
+        'requests'    # 你的脚本依赖 requests
+    ],
+    zip_safe=True,
+    maintainer='jacky',
+    maintainer_email='1225423790@qq.com',
+    description='ROS 2 bridge for Large Language Model communication via Flask.',
+    license='Apache2.0',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            # 格式：'可执行文件名 = 包名.文件名:函数名'
+            'llm_bridge = LLMLinkRos2.LLMlinkRos2V4:main',
+        ],
+    },
+)

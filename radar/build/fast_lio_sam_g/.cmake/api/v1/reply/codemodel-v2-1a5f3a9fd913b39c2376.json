@@ -1,0 +1,276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-abd11829ae4260e943f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "fast_lio_sam_g__py",
+					"jsonFile" : "directory-fast_lio_sam_g__py-Release-5a6a333b45a7f7bd5265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jacky/workspace/build/fast_lio_sam_g/fast_lio_sam_g__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "fast_lio_sam_g__rs",
+					"jsonFile" : "directory-fast_lio_sam_g__rs-Release-eb2570aca7c68915ab88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jacky/workspace/build/fast_lio_sam_g/fast_lio_sam_g__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "fast_lio_sam_g",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fast_lio_sam_g_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fast_lio_sam_g_egg-Release-ecc4cae5fbdc51eb503f.json",
+					"name" : "ament_cmake_python_build_fast_lio_sam_g_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fast_lio_sam_g::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fast_lio_sam_g-Release-5d9844f9634c4f19fb92.json",
+					"name" : "ament_cmake_python_copy_fast_lio_sam_g",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_to_occupancy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_to_occupancy-Release-d7ce0c0fd25bfc8b74f6.json",
+					"name" : "cloud_to_occupancy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g-Release-d9fc51cfcab9de66952a.json",
+					"name" : "fast_lio_sam_g",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__cpp-Release-ca5ac57469f211f8417e.json",
+					"name" : "fast_lio_sam_g__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fast_lio_sam_g__py::@980c0fcc8296a3ab27a6",
+					"jsonFile" : "target-fast_lio_sam_g__py-Release-8b174933a87f86df5edd.json",
+					"name" : "fast_lio_sam_g__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_generator_c-Release-b7e18da2e0497b2ad4b0.json",
+					"name" : "fast_lio_sam_g__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_generator_py-Release-eeda1e1232bc175b0109.json",
+					"name" : "fast_lio_sam_g__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_c-Release-262e2e3bc1e5b836a572.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_c__pyext-Release-f796177233b1142bb01a.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_cpp-Release-1d2be3561688426f1791.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_fastrtps_c-Release-b4b6dca8f951d302592e.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_fastrtps_c__pyext-Release-8378c400cf9dfebde44c.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_fastrtps_cpp-Release-ffef0471bd4bd42463d4.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_introspection_c-Release-9c01edcf5835f1462005.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_introspection_c__pyext-Release-efcf13da49efc20094bf.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g__rosidl_typesupport_introspection_cpp-Release-572f812294b418bde541.json",
+					"name" : "fast_lio_sam_g__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fast_lio_sam_g__rs::@66c4ea60e8a60aa9b5f9",
+					"jsonFile" : "target-fast_lio_sam_g__rs-Release-43b3d21be2637d4ceedb.json",
+					"name" : "fast_lio_sam_g__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_sam_g_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_sam_g_uninstall-Release-9a0a65e4e0ccc24bdded.json",
+					"name" : "fast_lio_sam_g_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fastlio_mapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fastlio_mapping-Release-7a2f667ebe3b071f4812.json",
+					"name" : "fastlio_mapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9c6f62a59651397d034f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jacky/workspace/build/fast_lio_sam_g",
+		"source" : "/home/jacky/workspace/src/FAST-SLAM-G"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

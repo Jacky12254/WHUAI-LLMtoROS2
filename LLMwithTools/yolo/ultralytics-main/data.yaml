@@ -1,0 +1,7 @@
+train: C:\Users\Agora\robohome\data\dataset\images\train  # train images (relative to 'path') 
+val: C:\Users\Agora\robohome\data\dataset\images\val  # val images (relative to 'path') 4 images
+
+nc: 11
+
+# class names
+names: ['sprite','cola','handwash','juice','cookie','chips','biscuit','dishsoap','shampoo','water','lemon']
