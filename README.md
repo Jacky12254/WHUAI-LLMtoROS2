@@ -1,4 +1,4 @@
-# LLM-WHURoboCup-Home
+# WHUAI-LLMtoROS2
 
 ## 简介
 
